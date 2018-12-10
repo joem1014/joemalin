@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+
+/* Body Styles */
+
+body {
+  background-color: #EDE6E6;
+  margin: 0;
+  padding: 0;
+}
+
+}
+body div {
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  flex: 1 1 200px;
+  text-align: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+div a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Banner Section */
+
+img#bannerImage {
+  width: 100%;
+  min-height: 350px;
+  max-height: 600px;
+}
+
+.banner-text {
+  font-family: ‘Arial Black’, Gadget, sans-serif;
+  display: block;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.banner-text h1 {
+  font-size: 30pt;
+  color: black;
+  text-decoration: overline;
+}
+
+.banner-text p#desc {
+  font-style: italic;
+}
+
+
+/* CSS Grid Section */
+
+div.row p {
+  font-size: 18pt;
+  color: inherit;
+}
+
+div.col1 {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+div.col2 {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+div.col3 {
+  display: block;
+  float: left;
+  width: 33%;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 767px) {
+  div.col1, div.col2, div.col3 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  div.row {
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  div.row {
+    float: left;
+  }
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #B79647;
+  width: 100%;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer div {
+  margin: 0px;
+  padding: 5px;
+}
+
+footer p {
+  display: block;
+  float: left;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
